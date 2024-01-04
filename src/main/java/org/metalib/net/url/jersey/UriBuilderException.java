@@ -17,7 +17,7 @@
 package org.metalib.net.url.jersey;
 
 /**
- * A runtime exception thrown by {@link UriBuilder#build(Object...)} methods when a {@link java.net.URI} cannot be
+ * A runtime exception thrown by UriBuilder#build(Object...) methods when a {@link java.net.URI} cannot be
  * constructed based on the current state of the builder.
  *
  * @author Paul Sandoz

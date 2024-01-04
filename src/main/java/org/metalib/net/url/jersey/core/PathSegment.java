@@ -18,14 +18,14 @@ package org.metalib.net.url.jersey.core;
 
 /**
  * Represents a URI path segment and any associated matrix parameters. When an instance of this type is injected with
- * {@link jakarta.ws.rs.PathParam}, the value of the annotation identifies which path segment is selected and the presence
- * of an {@link jakarta.ws.rs.Encoded} annotation will result in an instance that supplies the path and matrix parameter
+ * jakarta.ws.rs.PathParam, the value of the annotation identifies which path segment is selected and the presence
+ * of an jakarta.ws.rs.Encoded annotation will result in an instance that supplies the path and matrix parameter
  * values in URI encoded form.
  *
  * @author Paul Sandoz
  * @author Marc Hadley
- * @see UriInfo#getPathSegments
- * @see jakarta.ws.rs.PathParam
+ * see UriInfo#getPathSegments
+ * see jakarta.ws.rs.PathParam
  * @since 1.0
  */
 public interface PathSegment {

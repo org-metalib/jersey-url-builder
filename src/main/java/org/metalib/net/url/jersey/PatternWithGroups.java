@@ -272,7 +272,7 @@ public class PatternWithGroups {
 
     /**
      * Match against the pattern.
-     * <p/>
+     * <p>
      * If a matched then the capturing group values (if any) will be added to a list passed in as parameter.
      *
      * @param cs          the char sequence to match against the template.
@@ -319,7 +319,7 @@ public class PatternWithGroups {
 
     /**
      * Match against the pattern.
-     * <p/>
+     * <p>
      * If a matched then the capturing group values (if any) will be added to a list passed in as parameter.
      *
      * @param cs          the char sequence to match against the template.

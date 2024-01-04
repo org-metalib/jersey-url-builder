@@ -31,7 +31,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
- * A Jersey implementation of {@link UriBuilder}.
+ * A Jersey implementation of UriBuilder.
  *
  * @author Paul Sandoz
  * @author Martin Matula
@@ -913,7 +913,7 @@ public class JerseyUriBuilder {
 
     /**
      * Check whether or not the URI represented by this {@code UriBuilder} is absolute.
-     * <p/>
+     * <p>
      * A URI is absolute if, and only if, it has a scheme component.
      *
      * @return {@code true} if, and only if, the URI represented by this {@code UriBuilder} is absolute.

@@ -428,17 +428,17 @@ public class UriComponent {
     /**
      * Decodes characters of a string that are percent-encoded octets using
      * UTF-8 decoding (if needed).
-     * <p/>
+     * <p>
      * It is assumed that the string is valid according to an (unspecified) URI
      * component type. If a sequence of contiguous percent-encoded octets is
      * not a valid UTF-8 character then the octets are replaced with '\uFFFD'.
-     * <p/>
+     * <p>
      * If the URI component is of type HOST then any "%" found between "[]" is
      * left alone. It is an IPv6 literal with a scope_id.
-     * <p/>
+     * <p>
      * If the URI component is of type QUERY_PARAM then any "+" is decoded as
      * as ' '.
-     * <p/>
+     * <p>
      *
      * @param s the string to be decoded.
      * @param t the URI component type, may be null.
@@ -798,7 +798,7 @@ public class UriComponent {
 
     /**
      * Decode a continuous sequence of percent encoded octets.
-     * <p/>
+     * <p>
      * Assumes the index, i, starts that the first hex digit of the first
      * percent-encoded octet.
      */
