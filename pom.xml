@@ -4,7 +4,7 @@
 
     <groupId>org.metalib.net.url</groupId>
     <artifactId>jersey-url-builder</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
 
     <url>https://github.com/org-metalib/jersey-url-builder</url>
     <licenses>
@@ -188,6 +188,6 @@
     <scm>
         <connection>scm:git:git@github.com:org-metalib/jersey-url-builder.git</connection>
         <url>https://github.com/org-metalib/jersey-url-builder.git</url>
-        <tag>0.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
 </project>
