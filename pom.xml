@@ -8,6 +8,8 @@
     <artifactId>jersey-url-builder</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
+    <name>Jersey URL Builder</name>
+    <description>URL Builder code extracted from eclipse jersey jax rs.</description>
     <url>https://github.com/org-metalib/jersey-url-builder</url>
     <licenses>
         <license>
